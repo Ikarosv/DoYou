@@ -24,46 +24,46 @@
 
             <!-- Nav da nav2 kkk -->
             <aside class="w-100 pt-4 px-3">
-            <nav class="align-items-start justify-content-center d-flex flex-column">
+                <nav class="align-items-start justify-content-center d-flex flex-column">
 
-                        <div class="position-relative w-100">
-                            <div class="d-flex align-items-center w-100">
-                                <a href="index.php" aria-label="Início" class="w-100 nav-link">Início</a>
-                            </div>
+                    <div class="position-relative w-100">
+                        <div class="d-flex align-items-center w-100">
+                            <a href="index.php" aria-label="Início" class="w-100 nav-link">Início</a>
                         </div>
+                    </div>
 
-                        <div class="position-relative w-100">
-                            <div class="d-flex align-items-center w-100">
-                                <a href="index.php" aria-label="Sobre nós" class="w-100 nav-link">Sobre nós</a>
-                            </div>
+                    <div class="position-relative w-100">
+                        <div class="d-flex align-items-center w-100">
+                            <a href="index.php" aria-label="Sobre nós" class="w-100 nav-link">Sobre nós</a>
                         </div>
+                    </div>
 
-                        <!-- Dropdown -->
-                        <div class="position-relative w-100 text-left">
-                            <div class="d-flex align-items-center w-100 dropdown drophover nav-link">
-                                <!-- Link p o dropdown -->
-                                <a href="index.php" class="w-100" aria-label="Funcionalidades" style="color:inherit; text-decoration: none; cursor: default;" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Funcionalidades</a>
+                    <!-- Dropdown -->
+                    <div class="position-relative w-100 text-left">
+                        <div class="d-flex align-items-center w-100 dropdown drophover nav-link">
+                            <!-- Link p o dropdown -->
+                            <a href="index.php" class="w-100" aria-label="Funcionalidades" style="color:inherit; text-decoration: none; cursor: default;" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Funcionalidades</a>
 
-                                <svg style="overflow: visible; max-width: 18px; margin-top: 3px;" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><g transform="rotate(360 12 12)"><path d="M9 5l7 7-7 7"></path></g></svg>
+                            <svg style="overflow: visible; max-width: 18px; margin-top: 3px;" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><g transform="rotate(360 12 12)"><path d="M9 5l7 7-7 7"></path></g></svg>
 
-                                <!-- Menu do dropdown -->
-                                <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuLink" id="dropdownMenu">
-                                    <a class="dropdown-item dropdown-perso" aria-label="Gráficos" href="#">Gráficos</a>
-                                    <a class="dropdown-item dropdown-perso" aria-label="Conta Compartilhada" href="#">Conta Compatilhada</a>
-                                    <a class="dropdown-item dropdown-perso" aria-label="Controle financeiro" href="#">Controle Financeiro</a>
-                                </div>
-
+                            <!-- Menu do dropdown -->
+                            <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuLink" id="dropdownMenu">
+                                <a class="dropdown-item dropdown-perso" aria-label="Gráficos" href="#">Gráficos</a>
+                                <a class="dropdown-item dropdown-perso" aria-label="Conta Compartilhada" href="#">Conta Compatilhada</a>
+                                <a class="dropdown-item dropdown-perso" aria-label="Controle financeiro" href="#">Controle Financeiro</a>
                             </div>
-                        </div>
 
-                        <!-- Botão de entrar / cadastrar -->
-                        <div class="position-relative w-100 mt-4">
-                            <div class="d-flex align-items-center justify-content-center w-100">
-                                <a href="index.php" aria-label="Entrar ou Cadastrar" class="btn myBtn nav-link">Entrar / Cadastrar</a>
-                            </div>
                         </div>
+                    </div>
+
+                    <!-- Botão de entrar / cadastrar -->
+                    <div class="position-relative w-100 mt-4">
+                        <div class="d-flex align-items-center justify-content-center w-100">
+                            <a href="index.php" aria-label="Entrar ou Cadastrar" class="btn myBtn nav-link">Entrar / Cadastrar</a>
+                        </div>
+                    </div>
+                </nav>
             </aside>
-            
         </div>
     </div>
 </div>
