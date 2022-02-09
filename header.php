@@ -76,8 +76,8 @@
     <div class="navbar-expand-lg d-flex align-items-center h-100 px-2 mx-auto px-sm-3 px-lg-5">
 
         <!-- Logo DoYou -->
-            <div class="d-flex align-items-center flex-shrink-1 flex-grow-1 justify-content-start d-">
-                <a href="/index.php" aria-current="page" aria-label="DoYou" class="pl-1 navbar-brand DoYou header-link-logo
+            <div class="d-flex align-items-center flex-shrink-1 flex-grow-1 justify-content-start">
+                <a href="index.php" aria-current="page" aria-label="DoYou" class="pl-1 navbar-brand DoYou header-link-logo
                 w-100">
                     DoYou
                 </a>
@@ -98,7 +98,7 @@
 
             <div class="justify-content-lg-end d-none d-lg-block">
                 <!-- NAVEGAÇÃO NA NAVBAR -->
-                <nav class="align-items-center justify-content-center d-md-flex d-sm-none">
+                <nav class="align-items-center d-md-flex d-sm-none">
                     <div class="position-relative d-inline-block">
                         <div class="d-flex align-items-center w-100 mx-2">
                             <a href="index.php" aria-label="Início" class="nav-link">Início</a>
