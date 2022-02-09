@@ -17,6 +17,7 @@
                     function fechar(){
                         var btn = document.getElementById('conteudoNavbarSuportado');
                         btn.classList.remove('show');
+                        document.body.classList.remove('position-fixed')
                     }
                 </script>
 
@@ -84,9 +85,14 @@
         <!--  -->
 
         <!-- Botão de menu -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <button class="navbar-toggler" type="button" onclick="static()" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
                 <svg width="50" height="20" viewBox="0 0 50 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="50" height="5" rx="2.5" fill="white"/><rect x="15" y="15" width="35" height="5" rx="2.5" fill="white"/></svg>
             </button>
+            <script>
+                function static(){
+                    document.body.classList.add('position-fixed');
+                }
+            </script>
         <!--  -->
 
 
