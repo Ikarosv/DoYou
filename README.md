@@ -1,4 +1,4 @@
-# DoYou | Controle Financeiro
+# DoYou | Controle Financeiro 💲💲
 
 
 ## Descrição
